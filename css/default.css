@@ -1,0 +1,99 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+@font-face {
+	font-family: 'Romana BT';
+	src: url('RomanaBT-Bold.eot');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+#grid_container {
+	width: 400px;
+	height: 200px;
+	position: fixed;
+	left: 50%;
+	top: 50%; /* for optical centering */
+	margin-top: -100px;
+	margin-left: -150px;
+}
+
+.mono {
+	font-family: 'Romana BT';
+	font-size: 10em;
+	float: left;
+	margin-left: 0px;
+    margin-top:-10px;
+    color: lightpink;
+    position: relative;
+}
+
+#c {
+    position: relative;
+    -webkit-animation: c_move 4s alternate infinite ease;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes c_move {
+    0% { top: 0px; left: 0px; }
+    25% {top: -150px; left: 0px; }
+    100% {top: 0px; left: 230px; color: peachpuff;}
+}
+
+#a {
+    position: relative;
+    -webkit-animation: a_move 4s alternate infinite ease;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes a_move {
+    0% { top: 0px; left: 0px; }
+    25% {top: -150px; left: 0px; }
+    100% {top: 0px; left: 230px; color: peachpuff;}
+}
+
+#p {
+    position: relative;
+    -webkit-animation: p_move 4s alternate infinite ease;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes p_move {
+    0% { top: 0px; left: 0px; }
+    25% {top: -150px; left: 0px; }
+    75% {text-transform: uppercase;}
+    100% {top: 0px; left: -400px; color: peachpuff;}
+}
+
+#h {
+    position: relative;
+    -webkit-animation: h_move 4s alternate infinite ease;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes h_move {
+    0% { -webkit-transform: rotate(-0deg); top: 0px; left: 0px; }
+    25% {top: 150px; left: 0px; }
+    100% { -webkit-transform: rotate(-360deg); top: 0px; left: 250px; color: peachpuff;
+    
+}
+    
+#e {
+    position: relative;
+    -webkit-animation: e_move 6s alternate infinite ease;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes e_move {
+    0% { -webkit-transform: rotate(-0deg); top: 0px; left: 0px; }
+    25% {top: 150px; left: 0px; }
+    100% { -webkit-transform: rotate(-360deg); top: 0px; left: 250px; color: peachpuff;
+    
+}
+
+
+
+    
